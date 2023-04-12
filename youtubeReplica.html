@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Youtube Replica</title>
+        <link href = "youtubeReplica.css" type = "text/css" rel = "stylesheet"/>
+        <script src = "youtubeReplica.js"></script>
+    </head>
+
+    <body onload = "video();">
+        <header>Youtube Replica</header>
+
+        <input id = "searchBar" type = "text"/>
+
+        <button id = "submit" onclick = "submit();">Submit</button>
+
+        <button id = "videoSubmit" onclick = "videoSubmit();">Submit Video</button>
+
+        <iframe id = "video" src = ""  alt = "video" width = "800" height = "500" frameborder="0" allowfullscreen></iframe>
+
+        <p id = "videoTitle"></p>
+
+        <div class = "button">
+            <button onclick = "addLike();">
+                <img src = "like.png" alt = "like" width = "60" height = "60"/>
+            </button>
+            <p id = "like">0</p>
+        </div>
+        
+        <div class = "button">
+            <button onclick = "addDislike();">
+                <img src = "dislike.png" alt = "dislike" width = "40" height = "40"/>
+            </button>
+            <p id = "dislike">0</p>
+        </div>
+    </body>
+</html>

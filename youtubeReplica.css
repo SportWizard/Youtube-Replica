@@ -1,0 +1,23 @@
+header {
+    color: red;
+    font-size: 50px;
+    display: inline;
+    margin-right: 20px
+}
+
+#videoSubmit {
+    float: right
+}
+
+.button {
+    display: inline;
+    margin-right: 20px;
+}
+
+#like, #dislike, #searchBar, #submit{
+    display: inline;
+}
+
+#video {
+    display: block;
+}
